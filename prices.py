@@ -42,7 +42,7 @@ def output(symbol, prices):
       # Look through existing entries to make sure a price for this date doesn't
       # already exist.
       for price in prices:
-        if len(price) != 4:
+        if len(price) != 4 len(price) != 5:
             continue
 
         # Grab date and symbol from existing entry.
